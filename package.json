@@ -1,0 +1,21 @@
+{
+  "name": "dubui-react-ts",
+  "version": "0.0.1",
+  "description": "Lib UI react typeScript",
+  "main": "build/index.js",
+  "types":"build/index.d.ts",
+  "scripts": {
+    "build": "npx tsc -p ."
+  },
+  "keywords": [],
+  "author": "Javier Alfaro",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "react": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react":">=18.2.0"
+  }
+}
